@@ -1,34 +1,35 @@
-import React from "react";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Nav = () => {
+function Nav() {
   return (
-    <div className="flex text-white bg-Helenmaroon list-none gap-20 items-center justify-center h-[32px] text-[15px] font-normal font-serif mt-10 w-full ">
+  <nav className="flex text-white bg-Helenmaroon list-none gap-20 items-center justify-center h-[5vh] text-[15px] font-normal font-serif mt-10 w-full z-50 ">
       <li>
-        <a href="#">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="#">About</a>
+        <Link to="/about">About</Link>
       </li>
       <li>
-        <a href="#">Academics</a>
+        <Link to="/academics">Academics</Link>
       </li>
       <li>
-        <a href="#">Administration</a>
+        <Link to="/administration">Administration</Link>
       </li>
       <div className="bg-white w-[118px] h-[54px] rounded-bl-4xl rounded-br-4xl border-[1px] border-Helenmaroon items-center justify-center flex">
-        <img src="./Chinotimba-primary 1.png" alt="logo" />
+      <Link to ="/"> <img src="./Chinotimba-primary 1.png" alt="logo" /></Link> 
       </div>
       <li>
-        <a href="#">News & Events</a>
+        <Link to="/news">News & Events</Link>
       </li>
       <li>
-        <a href="#">Gallery</a>
+        <Link to="/gallery">Gallery</Link>
       </li>
       <li className="border-white border-[1px] px-2.5 rounded-[10px]">
-        <a href="#">Contact Us</a>
+        <Link to="/conact">Contact Us</Link>
       </li>
-    </div>
-  );
-};
+    </nav>
+  )
+}
 
-export default Nav;
+export default Nav

@@ -12,11 +12,26 @@ const Milestone = () => {
           Don’t Miss a Moment – Catch Up on the Latest at Chinotimba!
         </h1>
         <p className="pt-20   w-[571px] h-[51px]">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla facere
-          alias in Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Nulla facere alias in Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Nulla facere alias in Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit.C
+         In late 2024, our talented drum‑majorettes proudly represented the school at the SADC Regional World Children’s Day celebrations in Victoria Falls, adding energy and cultural pride to the festivities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
         </p>
 
         <div className="flex gap-6">
@@ -30,7 +45,8 @@ const Milestone = () => {
               <h1 className="w-[35px] h-[15px]  mt-32">News</h1>
               <p className="w-[178px] h-[26px] text-[10px]  mt-2">
                 {" "}
-                Nulla facere alias in Lorem, ipsum dolor sit amet consec
+                 Nulla facere alias in Lorem, ipsum dolor sit amet consec
+
               </p>
             </div>
           </div>

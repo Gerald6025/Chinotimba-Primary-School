@@ -3,7 +3,7 @@ import React from "react";
 const Get = () => {
   return (
     <div className="h-100">
-      <div className="flex mt-20  justify-evenly ">
+      <div className="flex mt-20  justify-evenly  ">
         <div className="relative bg-white p-8 flex flex-wrap justify-center  gap-6">
           <div className="flex flex-wrap justify-center items-start gap-6  ">
             <img
@@ -14,7 +14,7 @@ const Get = () => {
             <img
               src="./image (2).png"
               alt="Students collaborating on laptops"
-              className="w-[310px] h-[209px] rounded-lg shadow-lg relative z-10 right-26 top-27"
+              className="w-[273px] h-[209px] rounded-lg shadow-lg relative z-10 right-26 top-27"
             />
           </div>
 
@@ -27,7 +27,7 @@ const Get = () => {
           </div>
         </div>
 
-        <div className=" relative right-25 ">
+        <div className=" relative  ">
           <h1 className="text-[30px] font-normal font-serif mt-5 w-[294px] h-[30px] mb-2 ">
             Get to know About us
           </h1>
@@ -40,36 +40,25 @@ const Get = () => {
             foundation in academics, culture, and character development.
           </p>
           <div className="flex items-center justify-center mt-8 gap-3">
-            <div className=" w-[22px] h-[22px] ">
-              <img src="Check.png" alt="" />
-            </div>
             <div>
-              <p className="text-[15px]">
-                Stands as a vital educational institution in Zimbabwe’s Victoria
-                Falls community.
+              <p className="text-[15px] w-[610px] h-[24px] ">
+              <li> “The  approach is to develop a complete citizen who will leave the school with life skills.”</li>
               </p>
             </div>
           </div>
 
           <div className="flex items-center justify-center mt-2 gap-3">
-            <div className=" w-[22px] h-[22px] ">
-              <img src="Check.png" alt="" />
-            </div>
             <div>
-              <p className="text-[15px]">
-                Stands as a vital educational institution in Zimbabwe’s Victoria
-                Falls community.
+              <p className="text-[15px] w-[610px] h-[24px] list-disc">
+              <li> The children loved translating stories told to them by their elders in local languages </li>  
               </p>
             </div>
           </div>
           <div className="flex items-center justify-center mt-2 gap-3">
-            <div className=" w-[22px] h-[22px] ">
-              <img src="Check.png" alt="" />
-            </div>
+           
             <div>
-              <p className="text-[15px]">
-                Stands as a vital educational institution in Zimbabwe’s Victoria
-                Falls community.
+              <p className="text-[15px] w-[610px] h-[24px] list-disc">
+              <li>  “Growing up in a family of teachers  develop chilidren from pre-school to university</li>
               </p>
             </div>
           </div>

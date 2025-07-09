@@ -1,14 +1,15 @@
 import React from "react";
-
+import { Link } from 'react-router-dom'
 const Banner = () => {
   return (
     <>
-      <div className="flex h-[83vh] bg-white w-full  ">
+      <div className="flex h-[83vh] bg-white w-full  flex-wrap ">
         <div className="ml-15 pt-45 mt-3   bg-[url(Ab.PNG)] bg-center bg-cover h-120 bg-gray-200 bg-blend-overlay ">
-          <p className="pb-5">
+          <p className="pb-5 font-serif">
             "Nurturing Young Minds, Building a Bright Future"
           </p>
-          <h1 className="text-[40px] mb-5 ">
+          <h1 className="text-[40px] mb-5 
+          ">
             Welcome to Chinotimba Primary School
           </h1>
           <p className="text-[16px] w-[669px]">
@@ -19,7 +20,7 @@ const Banner = () => {
           </p>
           <div className="flex gap-2 flex-wrap mt-15">
             <button className=" border-Helenmaroon border-[1px] py-1 w-[139px] rounded-[10px] hover:bg-Helenmaroon hover:text-white">
-              <a href="">Enroll Now</a>{" "}
+              <Link to="/enroll">Enroll Now</Link>{" "}
             </button>
             <button className="  border-Helenmaroon border-[1px] py-1 w-[139px] rounded-[10px]  hover:bg-Helenmaroon hover:text-white  ">
               <a href="">Register </a>{" "}
