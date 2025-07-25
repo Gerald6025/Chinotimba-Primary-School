@@ -2,7 +2,7 @@ import React from "react";
 
 const Milestone = () => {
   return (
-    <div className=" md:h-150 md:flex  md:justify-evenly md:mr-20  h-230 ">
+    <div className=" md:h-150 md:flex  md:justify-evenly md:mr-20  h-250  ">
       <div className=" h-140 pt-15 flex flex-col  ">
         <p className=" md:text-[12px]  md:w-[173px] md:h-[16px] md:ml-0  text-center  ">
           Latest News & Upcoming Events
