@@ -11,7 +11,7 @@ function About() {
         <Bannerp
         head=' "Shaping Future Leaders, One Learner at a Time" '
         story="Chinotimba Primary School is a vibrant and inclusive learning institution situated in the heart of Victoria Falls. For decades, we have been committed to providing quality primary education to the children of Chinotimba and surrounding communities."
-        url="src/assets/desk.png"
+        url="images/desk.png"
       />
 
       <Discover/>

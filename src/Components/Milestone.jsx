@@ -38,7 +38,7 @@ const Milestone = () => {
           <div className="flex gap-2">
             <img
               className="border-Helenmaroon border-3 w-[75px] h-[75px] rounded-full md:mt-30 mt-10 ml-7 md:ml-0"
-              src="src/assets/news.png"
+              src="images/news.png"
               alt=""
             />
             <div>
@@ -54,7 +54,7 @@ const Milestone = () => {
           <div className="flex gap-2">
             <img
               className="border-Helenmaroon border-3 w-[75px] h-[75px] rounded-full mt-10 md:mt-30 ml-7 md:ml-0"
-              src="src/assets/eve.png"
+              src="images/eve.png"
               alt=""
             />
             <div>
@@ -77,7 +77,7 @@ const Milestone = () => {
             <div className="flex gap-2 ">
               <img
                 className="border-Helenmaroon border-3 w-[50px] h-[50px] md:block hidden rounded-full object-cover object-center "
-                src="src/assets/saa.png"
+                src="images/saa.png"
                 alt=""
               />
               <div className="md:block hidden">
@@ -97,7 +97,7 @@ const Milestone = () => {
         <div className="relative  z-10  ">
           <div className="rounded-lg overflow-hidden shadow-lg  border-2 border-Helenmaroon  z-20">
             <img
-              src="src/assets/woo.png"
+              src="images/woo.png"
               alt=""
               className="w-[450px] h-auto object-cover z-10"
             />
@@ -106,7 +106,7 @@ const Milestone = () => {
 
           <div className="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 rounded-lg overflow-hidden shadow-lg border-2 border-Helenmaroon z-10 md:block hidden">
             <img
-              src="src/assets/run.png"
+              src="images/run.png"
               alt=""
               className="w-[234px] h-[228px] object-cover"
             />

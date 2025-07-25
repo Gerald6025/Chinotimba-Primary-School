@@ -22,7 +22,7 @@ const Connect = () => {
             <div className="flex gap-2">
               <img
                 className=" w-[24px] h-[24px]  mt-23"
-                src="src/assets/locaton.png"
+                src="images/locaton.png"
                 alt=""
               />
               <div>
@@ -41,7 +41,7 @@ const Connect = () => {
             <div className="flex  gap-2">
               <img
                 className=" w-[24px] h-[24px]  mt-13"
-                src="src/assets/email.png"
+                src="images/email.png"
                 alt=""
               />
               <div>
@@ -57,7 +57,7 @@ const Connect = () => {
             <div className="flex  gap-2">
               <img
                 className=" w-[24px] h-[24px]  mt-10"
-                src="src/assets/phone.png"
+                src="images/phone.png"
                 alt=""
               />
               <div>
@@ -75,7 +75,7 @@ const Connect = () => {
           <div className="relative  z-20  ">
             <div className="rounded-lg overflow-hidden shadow-lg  -z-20 ">
               <img
-                src="src/assets/man.png"
+                src="images/man.png"
                 alt=""
                 className="w-[400px] h-[350px] object-cover "
               />

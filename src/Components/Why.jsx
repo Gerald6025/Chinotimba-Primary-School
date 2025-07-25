@@ -3,25 +3,25 @@ import React from "react";
 const Why = () => {
   const Cards = [
     {
-      url: "src/assets/card1.png",
+      url: "images/card1.png",
       title: " Qualified and dedicated teachers",
       body: "Our team of qualified and dedicated teachers is committed to providing quality education, nurturing each learner’s potential with passion, patience, and purpose",
       id: 1,
     },
     {
-      url: "src/assets/card 2.png",
+      url: "images/card 2.png",
       title: "Supportive community and leadership",
       body: "Backed by dedicated leadership and a supportive community, Chinotimba Primary School creates an environment where learners, teachers, and families grow together in unity and purpose",
       id: 2,
     },
     {
-      url: "src/assets/card 3.png",
+      url: "images/card 3.png",
       title: "Strong academic and cultural programs",
       body: 'We are proud to offer strong academic and cultural programs that nurture excellence in the classroom while celebrating the rich heritage and traditions of our community."',
       id: 3,
     },
     {
-      url: "src/assets/card 4.png",
+      url: "images/card 4.png",
       title: "Emphasis on ICT, sports, and life skills",
       body: 'we place strong emphasis on ICT integration, active participation in sports, and the development of essential life skills to ensure every learner is equipped for both academic success and real-world challenges."',
       id: 4,
@@ -52,7 +52,7 @@ const Why = () => {
           </div>
         ))}
 
-        <div className="bg-[url(src/assets/cap.jpg)] bg-center bg-cover w-[1268px]  h-[149px] mt-10 ">
+        <div className="bg-[url(images/cap.jpg)] bg-center bg-cover w-[1268px]  h-[149px] mt-10 ">
           <div className="w-[1268px]  h-[149px] bg-[#640F24D4] flex items-center justify-evenly flex-wrap text-center">
             <div className="flex flex-col ">
               <h1 className="text-white text-[30px]">450</h1>
