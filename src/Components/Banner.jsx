@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row h-auto md:h-[83vh] bg-white w-full flex-wrap">
-        <div className="ml-4 md:ml-15 pt-6 md:pt-45 mt-3 bg-[url(images/Ab.PNG)] bg-center bg-cover bg-gray-200 bg-blend-overlay h-auto md:h-120 w-full md:w-1/2 p-4 md:p-0">
+        <div className="ml-4 md:ml-15 pt-6 md:pt-45 mt-3  bg-center bg-cover bg-gray-200 bg-blend-overlay h-auto md:h-120 w-full md:w-1/2 p-4 md:p-0" style={{ backgroundImage: "url(images/Ab.PNG)" }}>
           <p className="pb-3 text-[14px] md:text-[16px] font-serif">
             "Nurturing Young Minds, Building a Bright Future"
           </p>

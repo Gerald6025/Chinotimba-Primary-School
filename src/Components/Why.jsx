@@ -52,7 +52,7 @@ const Why = () => {
           </div>
         ))}
 
-        <div className="bg-[url(images/cap.jpg)] bg-center bg-cover w-[1268px]  h-[149px] mt-10 ">
+        <div className=" bg-center bg-cover w-[1268px]  h-[149px] mt-10 "   style={{ backgroundImage: "url(images/cap.jpg)" }}>
           <div className="w-[1268px]  h-[149px] bg-[#640F24D4] flex items-center justify-evenly flex-wrap text-center">
             <div className="flex flex-col ">
               <h1 className="text-white text-[30px]">450</h1>

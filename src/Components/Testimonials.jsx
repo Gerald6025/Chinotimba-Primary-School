@@ -17,7 +17,7 @@ const Testimonials = () => {
       id: 2,
     },
     {
-      url: "images/approved.png",
+      url: "images/apprue.png",
       title: "Approved ",
       sub: "  UX Designer",
       body: "  “The solar‑powered borehole and agricultural equipment have empowered our students with sustainable learning tools and fresh opportunities.”",

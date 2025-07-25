@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" bg-[#00000059] bg-[url(images/foot.png)] bg-blend-overlay w-full h-[420px] bg-center bg-cover flex  justify-center gap-[200px] pt-10 ">
+    <div className=" bg-[#00000059] bg-blend-overlay w-full h-[420px] bg-center bg-cover flex  justify-center gap-[200px] pt-10 "  style={{ backgroundImage: "url(images/foot.png)" }}>
       <div className="text-white list-none flex flex-col gap-6 text-[15px] ">
         <h1 className="text-[20px] text-white">Navigation</h1>
         <li>
