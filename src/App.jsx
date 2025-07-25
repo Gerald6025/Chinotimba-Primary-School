@@ -7,7 +7,7 @@ import Footer from "./Components/Footer";
 import Enroll from "./Pages/Enroll";
 import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
-import ComingSoon from "./Pages/coming-soon";
+import ComingSoon from "./Pages/ComingSoon";
 
 
 
