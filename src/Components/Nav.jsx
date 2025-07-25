@@ -26,7 +26,7 @@ function Nav() {
       
       <div className="md:hidden flex items-center justify-between px-4 py-3">
         <div className="flex items-center gap-2">
-          <img src="src/assets/Chinotimba-primary 1.png" alt="logo" className="w-10 h-10" />
+          <img src="images/Chinotimba-primary 1.png" alt="logo" className="w-10 h-10" />
           <span className="text-sm font-semibold">Chinotimba Primary School</span>
         </div>
         <button onClick={() => setIsOpen(!isOpen)}>

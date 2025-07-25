@@ -19,9 +19,9 @@ const Student = () => {
       <div className="min-h-screen  bg-center bg-cover bg-blend-overlay p-4 md:p-8 lg:p-16 text-gray-800">
        
        <div className="relative  h-50 w-306  bg-white flex items-center justify-center gap-4 ">
-        <div className="w-[124px] h-[74px] border-[2px] border-[#262626] rounded-[8px]  flex items-center justify-center bg-Helenmaroon z-10"> <a href=""> <img src="images/icon.png" alt="" /></a></div>
-        <div   className="w-[124px] h-[74px] border-[2px] border-[#262626] rounded-[8px] flex items-center justify-center bg-Helenmaroon z-10"> <a href=""> <img src="images/icon (1).png" alt="" /></a></div>
-        <div   className="w-[124px] h-[74px] border-[2px] border-[#262626] rounded-[8px] flex items-center justify-center bg-Helenmaroon z-10"> <a href=""> <img src="images/icon (2).png" alt="" /></a></div>
+        <div className="w-[124px] h-[74px] border-[2px] border-[#262626] rounded-[8px]  flex items-center justify-center bg-Helenmaroon z-10"> <a href=""> <img src="public/images/icon.png" alt="" /></a></div>
+        <div   className="w-[124px] h-[74px] border-[2px] border-[#262626] rounded-[8px] flex items-center justify-center bg-Helenmaroon z-10"> <a href=""> <img src="public/images/icon (1).png" alt="" /></a></div>
+        <div   className="w-[124px] h-[74px] border-[2px] border-[#262626] rounded-[8px] flex items-center justify-center bg-Helenmaroon z-10"> <a href=""> <img src="public/images/icon (2).png" alt="" /></a></div>
 
        </div>
        
