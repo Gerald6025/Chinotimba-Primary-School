@@ -24,7 +24,7 @@ const Mission = () => {
         <div className="mt-10 flex flex-col">
           <div className="flex gap-108">
             <p>Student Population</p>
-            <img src="src/assets/98.png" alt="" />
+            <img src="images/98.png" alt="" />
           </div>
 
           <div>
@@ -36,7 +36,7 @@ const Mission = () => {
         <div className="mt-10 flex flex-col">
           <div className="flex gap-79">
             <p>Grade 7 Exam Performance</p>
-            <img src="src/assets/64.png" alt="" />
+            <img src="images/64.png" alt="" />
           </div>
 
           <div>
@@ -48,7 +48,7 @@ const Mission = () => {
         <div className="mt-10 flex flex-col">
           <div className="flex gap-99">
             <p>National Exam Ranking</p>
-            <img src="src/assets/86.png" alt="" />
+            <img src="images/86.png" alt="" />
           </div>
 
           <div>

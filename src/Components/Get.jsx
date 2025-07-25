@@ -8,12 +8,12 @@ const Get = () => {
         <div className="relative bg-white p-4 md:p-8 flex flex-wrap md:justify-evenly gap-4 md:gap-6">
           <div className="flex flex-wrap justify-center items-start gap-4 md:gap-6 ">
             <img
-              src="src/assets/image (1).png"
+              src="images/image (1).png"
               alt="Students working on laptops"
               className="w-[90%] hidden sm:w-[300px] md:w-[350px] h-auto md:h-[243px] md:relative md:right-20 md:block rounded-lg "
             />
             <img
-              src="src/assets/image (2).png"
+              src="images/image (2).png"
               alt="Students collaborating on laptops"
               className="w-[80%] sm:w-[220px]  md:w-[280px] h-auto md:h-[209px] rounded-lg shadow-lg relative md:left-40  md:bottom-40"
             />
@@ -21,7 +21,7 @@ const Get = () => {
 
           <div className="absolute bottom-20 md:bottom-77 left-1/2 md:left-100  md:absolute transform -translate-x-1/2 -translate-y-1/2 z-20">
             <img
-              src="src/assets/25.png"
+              src="images/25.png"
               alt="Circular badge"
               className="w-[60px] hidden sm:w-[80px]  md:w-[100px] md:block h-[60px] sm:h-[80px] md:h-[100px] rounded-full shadow-lg"
             />

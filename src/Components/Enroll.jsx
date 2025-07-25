@@ -4,7 +4,7 @@ function Enroll() {
   return (
     <div className="min-h-screen   bg-[#1a18188c] bg-[url(desk.png)] bg-center bg-cover bg-blend-overlay p-4 md:p-8 lg:p-16 text-gray-800">
       <div className="max-w-4xl mx-auto">
-        <img src="/chinotimba-primary 1.png" alt="" className="w-24 mb-4 object-cover" />
+        <img src="images/chinotimba-primary 1.png" alt="" className="w-24 mb-4 object-cover" />
         <h1 className="text-3xl md:text-4xl font-bold text-[#640F24] mb-6">Enroll Now</h1>
         <p className="mb-6 text-lg">
           Welcome to the enrollment page for Chinotimba Primary School. Please fill in your details below to begin the enrollment process.

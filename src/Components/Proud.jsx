@@ -6,7 +6,7 @@ const Proud = () => {
       <div className="flex flex-col gap-10 ">
         <div className="">
           <img
-            src="src/assets/Bad.jpg"
+            src="images/Bad.jpg"
             alt=""
             className="border-1 border-Helenmaroon  md:ml-0 mt-0 ml-3 w-[350px] h-[230px] rounded-[10px]  object-cover md:mt-5 md:w-[571px]"
           />
@@ -14,7 +14,7 @@ const Proud = () => {
 
         <div className="flex gap-7">
           <img
-            src="src/assets/kids.png"
+            src="images/kids.png"
             alt=""
             className="w-[388px] h-[185px] object-cover rounded-[10px]"
           />
@@ -40,7 +40,7 @@ const Proud = () => {
         <div className="group relative max-w-[600px] mx-auto">
           <div className="relative">
             <img
-              src="src/assets/Archive.png"
+              src="images/Archive.png"
               alt=""
               className="w-[536px] h-[255px] mt-20 rounded-[10px]"
             />

@@ -25,11 +25,11 @@ function Bannerp2(props) {
        
         </div>
       </div>
-      <Follow url1='src/assets/1 (2).png'
-                 url2='src/assets/2 (2).png'
-                 url3='src/assets/3 (2).png'
-                 url4='src/assets/4.png'
-                 url5='src/assets/5.png'
+      <Follow url1='images/1 (2).png'
+                 url2='images/2 (2).png'
+                 url3='images/3 (2).png'
+                 url4='images/4.png'
+                 url5='images/5.png'
       text='Trusted by 50k+ Followers'
       className=""
       />

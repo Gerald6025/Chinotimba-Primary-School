@@ -24,7 +24,7 @@ const ConBanner = () => {
         </div>
 
         <div className="flex flex-col  ">
-          <img src="src/assets/kii.png" alt="pic" className=" mt-15   " />
+          <img src="images/kii.png" alt="pic" className=" mt-15   " />
         </div>
       </div>
     </div>

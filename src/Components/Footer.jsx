@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" bg-[#00000059] bg-[url(src/assets/foot.png)] bg-blend-overlay w-full h-[420px] bg-center bg-cover flex  justify-center gap-[200px] pt-10 ">
+    <div className=" bg-[#00000059] bg-[url(images/foot.png)] bg-blend-overlay w-full h-[420px] bg-center bg-cover flex  justify-center gap-[200px] pt-10 ">
       <div className="text-white list-none flex flex-col gap-6 text-[15px] ">
         <h1 className="text-[20px] text-white">Navigation</h1>
         <li>
@@ -55,10 +55,10 @@ const Footer = () => {
         </div>
         </form>
         <div className="flex gap-10 mt-5">
-          <a href=""><img src="fb.png" alt="" /></a>
-           <a href=""><img src="ig.png" alt="" /></a>
-            <a href=""><img src="twit.png" alt="" /></a>
-             <a href=""><img src="in.png" alt="" /></a>
+          <a href=""><img src="images/fb.png" alt="" /></a>
+           <a href=""><img src="images/ig.png" alt="" /></a>
+            <a href=""><img src="images/twit.png" alt="" /></a>
+             <a href=""><img src="images/in.png" alt="" /></a>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ const Footer = () => {
 
 
           <img
-            src="src/assets/Chinotimba-primary 1.png"
+            src="images/Chinotimba-primary 1.png"
             alt=""
             className="w-[100px] h-[100px] object-contain mt-5"
           />

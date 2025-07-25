@@ -14,7 +14,7 @@ function Nav() {
         <li><Link to="/academics">Academics</Link></li>
         <li><Link to="/administration">Administration</Link></li>
         <div className="bg-white w-[118px] h-[54px] rounded-bl-4xl rounded-br-4xl border-[1px] border-Helenmaroon flex items-center justify-center">
-          <Link to="/"><img src="src/assets/Chinotimba-primary 1.png" alt="logo" /></Link>
+          <Link to="/"><img src="images/Chinotimba-primary 1.png" alt="logo" /></Link>
         </div>
         <li><Link to="/news">News & Events</Link></li>
         <li><Link to="/gallery">Gallery</Link></li>
