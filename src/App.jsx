@@ -6,6 +6,7 @@ import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
 import Enroll from "./Pages/Enroll";
 import Gallery from "./Pages/Gallery";
+import Contact from "./Pages/Contact";
 
 
 
@@ -19,7 +20,7 @@ function App() {
         <Route path="/academics" element={<Academics/>}/>
         <Route path="/enroll" element={<Enroll/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
-      
+        <Route path="/conact" element={<Contact/>}/>
       
       
       </Routes> 

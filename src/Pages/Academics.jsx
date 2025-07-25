@@ -15,7 +15,7 @@ const Academics = () => {
        head=' Our Academics'
         story="At Chinotimba Primary School, our journey is marked by dedication, innovation, and community strength. We believe in nurturing not only academic success but also life skills, culture, and compassion.
 One of our most impactful achievements was the installation of a solar-powered borehole, generously donated by the Rotary Club. This project transformed our school environment by providing clean water for students and powering our agricultural activities. It supports both learning and health, and stands as a symbol of progress and sustainability."
-        url="ACAD.png"
+        url="src/assets/ACAD.png"
       />
       
 <Get2/>

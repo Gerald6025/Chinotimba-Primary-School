@@ -7,12 +7,12 @@ const Get = () => {
         <div className="relative bg-white p-8 flex flex-wrap justify-center  gap-6">
           <div className="flex flex-wrap justify-center items-start gap-6  ">
             <img
-              src="./Aca.png"
+              src="src/assets/Aca.png"
               alt=""
               className="w-[277px] h-[310px] rounded-lg "
             />
             <img
-              src="./ki.png"
+              src="src/assets/ki.png"
               alt="Students collaborating on laptops"
               className="w-[285px] h-[309px] rounded-lg shadow-lg relative z-10 right-17 top-25 object-cover"
             />

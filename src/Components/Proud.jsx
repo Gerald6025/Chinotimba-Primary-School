@@ -2,19 +2,19 @@ import React from "react";
 
 const Proud = () => {
   return (
-    <div className=" h-150 pt-10 flex justify-evenly flex-wrap">
-      <div className="flex flex-col gap-10">
+    <div className=" h-150 md:pt-10   flex justify-evenly flex-wrap">
+      <div className="flex flex-col gap-10 ">
         <div className="">
           <img
-            src="Bad.jpg"
+            src="src/assets/Bad.jpg"
             alt=""
-            className="border-1 border-Helenmaroon  w-[571px] h-[230px] rounded-[10px]  object-cover mt-5"
+            className="border-1 border-Helenmaroon  md:ml-0 mt-0 ml-3 w-[350px] h-[230px] rounded-[10px]  object-cover md:mt-5 md:w-[571px]"
           />
         </div>
 
         <div className="flex gap-7">
           <img
-            src="kids.png"
+            src="src/assets/kids.png"
             alt=""
             className="w-[388px] h-[185px] object-cover rounded-[10px]"
           />
@@ -40,7 +40,7 @@ const Proud = () => {
         <div className="group relative max-w-[600px] mx-auto">
           <div className="relative">
             <img
-              src="Archive.png"
+              src="src/assets/Archive.png"
               alt=""
               className="w-[536px] h-[255px] mt-20 rounded-[10px]"
             />

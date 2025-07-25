@@ -25,11 +25,11 @@ function Bannerp(props) {
           <div className="rounded-full h-[465px] w-[465px] relative border-[30px] border-Helenmaroon top-30  z-10"></div>
         </div>
       </div>
-      <Followers url1='1 (2).png '
-                 url2='2 (2).png'
-                 url3='3 (2).png'
-                 url4='4.png'
-                 url5='5.png'
+      <Followers url1=' src/assets/1 (2).png '
+                 url2='src/assets/2 (2).png'
+                 url3='src/assets/3 (2).png'
+                 url4='src/assets/4.png'
+                 url5='src/assets/5.png'
       text='Trusted by 50k+ Followers'
       
       />

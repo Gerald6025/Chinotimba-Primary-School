@@ -12,7 +12,7 @@ const Discover = () => {
           <div className="relative bg-white p-8 flex flex-wrap justify-center  gap-6">
             <div className="flex flex-wrap justify-center items-start gap-6  ">
               <img
-                src="./chi.png"
+                src="src/assets/chi.png"
                 alt=""
                 className="w-[373px] h-[378px] rounded-[10px]  object-cover "
               />
@@ -20,7 +20,7 @@ const Discover = () => {
               <div className="w-[244px] h-[200px] rounded-[10px]  relative -z-0 right-37 top-45 bg-white"></div>
 
               <img
-                src="./teach.png"
+                src="src/assets/teach.png"
                 alt=""
                 className="w-[244px] h-[310px] rounded-[10px]  relative z-20 left-17 bottom-52 object-cover"
               />

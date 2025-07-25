@@ -33,18 +33,18 @@ const Books = () => {
   };
 
   const Subs = [
-    { url: "Bk1.png", id: 1 },
-    { url: "Bk2.png", id: 2 },
-    { url: "Bk3.png", id: 3 },
-    { url: "Bk4.png", id: 4 },
-    { url: "Bk 5.png", id: 5 },
-    { url: "Bk6.jpg", id: 6 },
-    { url: "Bk7.png", id: 7 },
-    { url: "Bk8.png", id: 8 },
-    { url: "Bk9.png", id: 9 },
-    { url: "Bk10.png", id: 10 },
-    { url: "Bk11.jpg", id: 11 },
-    { url: "Bk12.jpg", id: 12 },
+    { url: "src/assets/Bk1.png", id: 1 },
+    { url: "src/assets/Bk2.png", id: 2 },
+    { url: "src/assets/Bk3.png", id: 3 },
+    { url: "src/assets/Bk4.png", id: 4 },
+    { url: "src/assets/Bk 5.png", id: 5 },
+    { url: "src/assets/Bk6.jpg", id: 6 },
+    { url: "src/assets/Bk7.png", id: 7 },
+    { url: "src/assets/Bk8.png", id: 8 },
+    { url: "src/assets/Bk9.png", id: 9 },
+    { url: "src/assets/Bk10.png", id: 10 },
+    { url: "src/assets/Bk11.jpg", id: 11 },
+    { url: "src/assets/Bk12.jpg", id: 12 },
   ];
 
   return (

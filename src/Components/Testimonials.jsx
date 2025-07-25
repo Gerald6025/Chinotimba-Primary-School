@@ -3,28 +3,28 @@ import React from "react";
 const Testimonials = () => {
   const Tests = [
     {
-      url: "leeroy.png",
+      url: "src/assets/leeroy.png",
       title: "Leeroy Dube",
       sub: "Marketer",
       body: "“Watching children develop from pre-school to university has been deeply fulfilling.”",
       id: 1,
     },
     {
-      url: "helen.png",
+      url: "src/assets/helen.png",
       title: "Helen Dube",
       sub: "Product Designer",
       body: " “Our pupils raised over R13 000 to help a schoolmate undergo a life‑saving heart operation — even the youngest learners contributed.” ",
       id: 2,
     },
     {
-      url: "apprue.png",
+      url: "src/assets/apprue.png",
       title: "Approved ",
       sub: "  UX Designer",
       body: "  “The solar‑powered borehole and agricultural equipment have empowered our students with sustainable learning tools and fresh opportunities.”",
       id: 3,
     },
     {
-      url: "desire.png",
+      url: "src/assets/desire.png",
       title: "Desire",
       sub: "Marketer",
       body: "  “Former students based in the UK donated curriculum-aligned textbooks worth nearly Z$300 000, boosting our teaching resources and academic preparedness.”",
