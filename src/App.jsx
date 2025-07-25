@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Enroll from "./Pages/Enroll";
 import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
+import ComingSoon from "./Pages/coming-soon";
 
 
 
@@ -21,6 +22,9 @@ function App() {
         <Route path="/enroll" element={<Enroll/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
         <Route path="/conact" element={<Contact/>}/>
+      <Route path="/register" element={<ComingSoon/>} />
+      <Route path="/news" element={<ComingSoon/>} />
+      <Route path="/administration" element={<ComingSoon/>} />
       
       
       </Routes> 
