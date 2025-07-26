@@ -4,21 +4,21 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row h-auto md:h-[83vh] bg-white w-full flex-wrap">
-        <div className="ml-4 md:ml-15 pt-6 md:pt-45 mt-3  bg-center bg-cover bg-gray-200 bg-blend-overlay h-auto md:h-120 w-full md:w-1/2 p-4 md:p-0" style={{ backgroundImage: "url(images/Ab.PNG)" }}>
+      <div className="flex flex-col md:flex-row h-auto md:h-[83vh] bg-white w-full flex-wrap ">
+        <div className="pl-4 md:ml-15 pt-6 md:pt-45 mt-3  bg-center  bg-cover bg-gray-200 bg-blend-overlay h-auto md:h-120 w-full md:w-1/2 p-4 md:p-0 " style={{ backgroundImage: "url(images/Ab.PNG)" }}>
           <p className="pb-3 text-[14px] md:text-[16px] font-serif">
             "Nurturing Young Minds, Building a Bright Future"
           </p>
-          <h1 className="text-[24px] sm:text-[32px] md:text-[35px]  mb-5">
+          <h1 className="text-[24px] sm:text-[32px] md:text-[35px]   mb-5">
             Welcome to Chinotimba Primary School
           </h1>
-          <p className="text-[14px] md:text-[16px] w-full md:w-[669px]">
+          <p className="text-[13px]  w-[300px] md:text-[16px]   md:w-[669px]">
             "A warm welcome to Chinotimba Primary School! Here in the heart of
             Victoria Falls, we are dedicated to providing a foundational
             education that empowers our pupils for a bright future. We believe
             in nurturing young minds and building strong community ties."
           </p>
-          <div className="flex gap-2 flex-wrap mt-6 md:mt-15">
+          <div className="flex gap-2 flex-wrap mt-6 md:mt-15 ">
             <button className="border-Helenmaroon border-[1px] py-1 w-[139px] rounded-[10px] hover:bg-Helenmaroon hover:text-white">
               <Link to="/enroll">Enroll Now</Link>
             </button>
