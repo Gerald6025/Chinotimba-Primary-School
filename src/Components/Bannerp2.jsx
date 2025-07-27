@@ -9,7 +9,7 @@ function Bannerp2(props) {
       <div className="flex justify-evenly  flex-wrap  ">
         <div>
           <h1
-            className="text-[40px] w-[271px] h-[40px] md:pt-30  pt-10
+            className="text-[40px] md:w-[271px] w-[320px] md:h-[40px] md:pt-30  pt-10  h-[30px]
           "
           >
             {props.head}
