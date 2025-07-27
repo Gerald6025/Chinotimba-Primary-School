@@ -33,8 +33,8 @@ const Testimonials = () => {
   ];
 
   return (
-    <div>
-      <div className="text-center items-center justify-center flex  flex-col">
+    <div className="">
+      <div className="text-center items-center justify-center flex   flex-col">
         <h1 className="w-[250px] h-[34px] text-[30px] ">Testimonials</h1>
         <hr className=" bg-Helenmaroon w-[170px] h-[3px] mt-3" />
       </div>
@@ -45,7 +45,7 @@ const Testimonials = () => {
             className=" 
 "
           >
-            <div className="  border-[1px] rounded-[10px] border-Helenmaroon w-[500px] h-[200px] px-3 flex gap-7">
+            <div className="  border-[1px]  rounded-[10px] w-full border-Helenmaroon md:w-[500px] md:h-[200px]  h-[220px] px-3 flex gap-7">
               <div className="mt-10">
                 <img
                   src={Test.url}
@@ -59,7 +59,7 @@ const Testimonials = () => {
                 </h1>
                 <h3 className="mt-2">{Test.sub}</h3>
 
-                <p className="w-[297px] h-[55px] text-[12px] mt-5">
+                <p className="md:w-[297px] w-[200px] h-[55px] text-[12px] mt-5">
                   {Test.body}
                 </p>
               </div>

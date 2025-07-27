@@ -2,7 +2,7 @@ import React from "react";
 
 const Mission = () => {
   return (
-    <div className="flex  justify-evenly gap-5">
+    <div className="md:flex  md:justify-evenly md:gap-5  hidden">
       <div>
         <h1 className="w-[250px] h-[34px] text-[30px]">Mission & vision</h1>
         <hr className=" bg-Helenmaroon w-[215px] h-[3px] mt-3" />
