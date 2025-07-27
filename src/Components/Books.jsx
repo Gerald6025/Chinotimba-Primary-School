@@ -48,7 +48,7 @@ const Books = () => {
   ];
 
   return (
-    <div className="mt-40 ml-10">
+    <div className="mt-40 ml-10 ">
       <h1 className="w-[250px] h-[34px] text-[30px]">Subjects Offered</h1>
       <hr className="bg-Helenmaroon w-[215px] h-[3px] mt-3" />
 
