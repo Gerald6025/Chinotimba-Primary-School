@@ -4,35 +4,31 @@ import Followers from "./Followers";
 
 function Bannerp(props) {
   return (
-    <section className="bg-white  ">
-      <Learn  />
+
+    <section className="bg-white   ">
+     <Learn/>
+    
+     
       <div className="flex justify-evenly  flex-wrap   ">
         
-        <div className=" h-[200px]">
+        <div className=" h-[200px] ">
           <h1
-            className="text-[30px] w-[612px] h-[60px] pt-40 
+            className=" md:text-[30px] md:w-[612px] md:h-[60px] md:pt-40 text-[24px] w-[350px] h-[50px] pt-10 ml-5
           "
           >
             {props.head}
           </h1>
 
-          <p className="text-[16px] w-[503px] h-[68px] mt-30">{props.story}</p>
+          <p className="text-[16px] md:w-[503px] md:h-[68px] md:text-[18px]  w-[350px] mt-30 ml-5">{props.story}</p>
         </div>
 
-        <div className="flex flex-col -mt-5 ">
-          <img src={props.url} alt="pic" className="absolute z-20  " />
+        <div className=" md:flex md:flex-col -mt-5 ">
+          <img src={props.url} alt="pic" className="absolute z-20  w-70 md:w-120 md:top-0 top-90 " />
 
-          <div className="rounded-full h-[465px] w-[465px] relative border-[30px] border-Helenmaroon top-30  z-10"></div>
+          <div className="rounded-full md:h-[465px] md:w-[465px] w-80 h-80 relative border-[30px] top-50 border-Helenmaroon md:top-30  z-10"></div>
         </div>
       </div>
-      <Followers url1='images/1 (2).png'
-                 url2='images/2 (2).png'
-                 url3='images/3 (2).png'
-                 url4='images/4.png'
-                 url5='images/5.png'
-      text='Trusted by 50k+ Followers'
-      
-      />
+     
     </section>
   );
 }

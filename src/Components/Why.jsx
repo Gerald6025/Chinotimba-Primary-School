@@ -29,7 +29,7 @@ const Why = () => {
   ];
 
   return (
-    <div className="mt-60 h-200">
+    <div className="mt-60 md:h-200  h-500">
       <h1 className="w-[250px] h-[34px] text-[30px] ml-15">Why Choose Us</h1>
       <hr className=" bg-Helenmaroon w-[215px] h-[3px] mt-3 ml-15" />
       <div className="flex justify-evenly flex-wrap">
@@ -52,7 +52,7 @@ const Why = () => {
           </div>
         ))}
 
-        <div className=" bg-center bg-cover w-[1268px]  h-[149px] mt-10 "   style={{ backgroundImage: "url(images/cap.jpg)" }}>
+        <div className=" bg-center bg-cover w-[1268px]  h-[149px] mt-10 md:block hidden "   style={{ backgroundImage: "url(images/cap.jpg)" }}>
           <div className="w-[1268px]  h-[149px] bg-[#640F24D4] flex items-center justify-evenly flex-wrap text-center">
             <div className="flex flex-col ">
               <h1 className="text-white text-[30px]">450</h1>
