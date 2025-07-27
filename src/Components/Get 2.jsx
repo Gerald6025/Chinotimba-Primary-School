@@ -2,7 +2,7 @@ import React from "react";
 
 const Get2 = () => {
   return (
-    <div className="h-100">
+    <div className="h-100 ">
       <div className="flex mt-20  justify-evenly ">
         <div className="relative bg-white p-8 flex flex-wrap justify-center  gap-6">
           <div className="flex flex-wrap justify-center items-start gap-6  ">
