@@ -21,7 +21,7 @@ const Get = () => {
         </div>
 
         <div className=" relative right-25 ">
-          <h1 className="text-[30px] font-normal font-serif mt-5 w-[298px] h-[30px] mb-2 ">
+          <h1 className="text-[30px] font-normal font-serif mt-5 md:w-[298px] h-[30px] mb-2 w-[320px]  ">
             Academics philosophy
           </h1>
          
