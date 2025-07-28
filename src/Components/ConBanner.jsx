@@ -2,17 +2,15 @@ import React from "react";
 
 const ConBanner = () => {
   return (
-    <div>
-      <div className="flex justify-evenly  flex-wrap  h-140  bg-Helenmaroon text-white">
-        <div>
-          <h1
-            className="text-[40px] w-[271px] h-[40px] pt-40 
-          "
-          >
-            <h1>Contact Us</h1>
+    <div className="w-full pb-30 ">
+      <div className="flex flex-col md:flex-row justify-between items-center bg-Helenmaroon text-white py-10 md:py-20 px-4 md:px-8 lg:px-16">
+        
+        <div className="w-full md:w-1/2 lg:w-2/3 text-center md:text-left mb-8 md:mb-0">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
+            Contact Us
           </h1>
 
-          <p className="text-[16px] w-[601px] h-[56px] mt-20">
+          <p className="text-base sm:text-lg md:text-xl leading-relaxed">
             At Chinotimba Primary School, we value open communication with
             parents, guardians, and the community. Whether you have a question,
             would like to enroll your child, or want to learn more about our
@@ -23,8 +21,13 @@ const ConBanner = () => {
           </p>
         </div>
 
-        <div className="flex flex-col  ">
-          <img src="images/kii.png" alt="pic" className=" mt-15   " />
+      
+        <div className="w-full md:w-1/2 lg:w-1/3 flex justify-center">
+          <img 
+            src="images/kii.png" 
+            alt="School illustration" 
+            className="max-w-xs md:max-w-sm lg:max-w-md"
+          />
         </div>
       </div>
     </div>
