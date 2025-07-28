@@ -23,7 +23,7 @@ const Banner = () => {
               <Link to="/enroll">Enroll Now</Link>
             </button>
             <button className="border-Helenmaroon border-[1px] py-1 w-[139px] rounded-[10px] hover:bg-Helenmaroon hover:text-white">
-              <a href="">Register </a>
+              <Link to="/administration">Register </Link>
             </button>
           </div>
         </div>

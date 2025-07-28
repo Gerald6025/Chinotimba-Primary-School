@@ -8,7 +8,7 @@ const Student = () => {
         <h1 className="text-4xl md:text-5xl font-bold ">
           Student Information
         </h1>
-        <p className="text-lg md:text-xl ">
+        <p className="text-md md:text-xl ">
           If you have specific questions or wish to request more information
           about Little Learners Academy, please complete the contact form below.
           Kindly provide the following details to help us better understand your
