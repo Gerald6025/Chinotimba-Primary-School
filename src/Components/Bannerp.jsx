@@ -23,7 +23,7 @@ function Bannerp(props) {
         </div>
 
         <div className=" md:flex md:flex-col -mt-5 ">
-          <img src={props.url} alt="pic" className="absolute z-20  w-70 md:w-120 md:top-0 top-90 " />
+          <img src={props.url} alt="pic" className="absolute z-20  w-70 md:w-100 md:top-20 md:right-33 top-90" />
 
           <div className="rounded-full md:h-[465px] md:w-[465px] w-80 h-80 relative border-[30px] top-50 border-Helenmaroon md:top-30  z-10"></div>
         </div>
