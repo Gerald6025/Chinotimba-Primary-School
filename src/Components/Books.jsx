@@ -55,7 +55,7 @@ const Books = () => {
       <div className="mt-10 mr-10">
         <Slider {...settings}>
           {Subs.map((Sub) => (
-            <div key={Sub.id} className="px-2">
+            <div key={Sub.id} className="px-2 ">
               <img
                 src={Sub.url}
                 alt={`Book ${Sub.id}`}
